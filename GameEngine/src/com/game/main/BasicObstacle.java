@@ -11,7 +11,7 @@ public class BasicObstacle extends GameObject{
 	
 	public BasicObstacle(int x, int y, ID id, Handler handler) {
 		super(x, y, id);
-		
+		 
 		this.handler = handler;
 		
 		velY = 5;
